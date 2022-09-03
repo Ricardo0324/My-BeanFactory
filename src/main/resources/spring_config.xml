@@ -1,0 +1,22 @@
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation=" http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+    &lt;!&ndash; 这里 bean 的 id 和 class 会以键值对的形式，保存在 IOC 的容器中 &ndash;&gt;
+    <bean id="teacher" class="entity.Teacher">
+        <property name="tName" value="AlanShleby"/>
+    </bean>
+
+    <bean id="student" class="entity.Student">
+        <property name="sName" value="Mike"/>
+        <property name="age" value="22"/>
+        <property name="teacher" ref="teacher"/>
+    </bean>
+
+</beans>-->
